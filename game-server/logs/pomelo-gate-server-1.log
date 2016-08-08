@@ -1,0 +1,273 @@
+[2016-08-08 18:15:38.011] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:16:25.447] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:16:56.002] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:19:14.990] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:19:15.699] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 18:19:15.706] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 18:19:15.706] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 558 ms
+[2016-08-08 18:21:08.253] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:22:14.535] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:23:17.209] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:24:42.588] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:25:06.302] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:26:50.275] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:26:50.978] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 18:26:50.985] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 18:26:50.986] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 581 ms
+[2016-08-08 18:26:51.055] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"172.16.3.78","clientPort":3010,"frontend":"true","serverType":"connector","pid":20320}}
+[2016-08-08 18:26:51.077] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":13664}}
+[2016-08-08 18:26:51.078] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"172.16.3.78","clientPort":3011,"frontend":"true","serverType":"connector","pid":11896}}
+[2016-08-08 18:41:46.301] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:41:47.061] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 18:41:47.068] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 18:41:47.069] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 523 ms
+[2016-08-08 18:41:47.119] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":8900}}
+[2016-08-08 18:41:47.146] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"172.16.3.78","clientPort":3011,"frontend":"true","serverType":"connector","pid":6600}}
+[2016-08-08 18:41:47.179] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"172.16.3.78","clientPort":3010,"frontend":"true","serverType":"connector","pid":21364}}
+[2016-08-08 18:43:34.830] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 18:43:37.931] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 1
+[2016-08-08 18:45:48.474] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 2
+[2016-08-08 18:45:48.479] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 18:45:48.481] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'forwardMessage' of undefined
+    at doForward (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:334:49)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js:295:15)
+    at null.<anonymous> (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js:239:5)
+    at emit (events.js:107:17)
+[2016-08-08 18:45:48.481] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: connector.entryHandler.queryEntry, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 18:46:23.663] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:46:24.395] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 18:46:24.402] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 18:46:24.403] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 604 ms
+[2016-08-08 18:46:24.404] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"172.16.3.78","clientPort":3011,"frontend":"true","serverType":"connector","pid":17932}}
+[2016-08-08 18:46:28.907] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 18:46:28.915] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 18:46:28.918] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'forwardMessage' of undefined
+    at doForward (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:334:49)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at pro.globalHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js:295:15)
+    at null.<anonymous> (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js:239:5)
+    at emit (events.js:107:17)
+[2016-08-08 18:46:28.918] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: connector.entryHandler.queryEntry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 18:47:37.451] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:47:38.127] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 18:47:38.136] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 18:47:38.137] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 535 ms
+[2016-08-08 18:47:38.142] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":1568}}
+[2016-08-08 18:48:09.875] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:48:10.536] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 18:48:10.544] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 18:48:10.545] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 514 ms
+[2016-08-08 18:48:10.546] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"172.16.3.78","clientPort":3011,"frontend":"true","serverType":"connector","pid":14280}}
+[2016-08-08 18:48:10.547] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"172.16.3.78","clientPort":3010,"frontend":"true","serverType":"connector","pid":16464}}
+[2016-08-08 18:48:14.259] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 18:48:14.268] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.entryHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 18:48:14.282] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.entryHandler.queryEntry","serverType":"gate","handler":"entryHandler","method":"queryEntry"}
+[2016-08-08 18:48:14.282] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.entryHandler.queryEntry"
+[2016-08-08 18:48:14.283] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.entryHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 18:48:14.284] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.entryHandler.queryEntry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 18:48:53.575] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 1
+[2016-08-08 18:48:54.429] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 2
+[2016-08-08 18:48:54.433] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 18:48:54.433] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 18:48:54.433] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 18:48:54.433] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 18:48:54.434] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 18:49:03.600] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 18:49:04.282] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 18:49:04.291] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 18:49:04.294] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 556 ms
+[2016-08-08 18:49:04.296] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"172.16.3.78","clientPort":3010,"frontend":"true","serverType":"connector","pid":3436}}
+[2016-08-08 18:49:09.109] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 18:49:09.118] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 18:49:09.131] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 18:49:09.131] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 18:49:09.132] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 18:49:09.133] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 18:49:55.602] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 1
+[2016-08-08 18:49:57.401] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 2
+[2016-08-08 18:49:57.405] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 18:49:57.405] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 18:49:57.405] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 18:49:57.406] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 18:49:57.406] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 18:50:07.531] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 2
+[2016-08-08 18:50:08.985] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 3
+[2016-08-08 18:50:08.988] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 3, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 18:50:08.988] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 18:50:08.988] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 18:50:08.989] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 18:50:08.989] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [3], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 19:08:10.299] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 3
+[2016-08-08 19:32:48.779] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 4
+[2016-08-08 19:32:48.783] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 4, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 19:32:48.784] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 19:32:48.784] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 19:32:48.785] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 19:32:48.785] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [4], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 19:34:11.371] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 19:34:12.101] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 19:34:12.108] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 19:34:12.109] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 594 ms
+[2016-08-08 19:34:12.112] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"172.16.3.78","clientPort":3010,"frontend":"true","serverType":"connector","pid":9012}}
+[2016-08-08 19:34:12.144] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":15676}}
+[2016-08-08 19:34:12.176] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"172.16.3.78","clientPort":3011,"frontend":"true","serverType":"connector","pid":8196}}
+[2016-08-08 19:34:24.744] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 19:34:24.751] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 19:34:24.765] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 19:34:24.766] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 19:34:24.767] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 19:34:24.768] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 19:38:35.263] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 1
+[2016-08-08 19:40:31.315] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 19:40:32.129] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 19:40:32.137] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 19:40:32.138] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 664 ms
+[2016-08-08 19:40:32.176] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":18780}}
+[2016-08-08 19:40:48.878] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 19:40:49.557] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 19:40:49.564] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 19:40:49.565] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 538 ms
+[2016-08-08 19:40:49.641] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":6248}}
+[2016-08-08 20:06:21.707] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 20:06:22.420] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 20:06:22.426] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 20:06:22.427] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 575 ms
+[2016-08-08 20:07:02.368] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 20:07:02.376] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 20:07:02.389] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 20:07:02.389] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 20:07:02.390] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 20:07:02.391] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 20:07:06.769] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 1
+[2016-08-08 20:09:58.215] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 2
+[2016-08-08 20:09:58.220] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 20:09:58.221] [WARN] pomelo - [33m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find handler for routeRecord: {"route":"gate.gateHandler.queryEntry","serverType":"gate","handler":"gateHandler","method":"queryEntry"}
+[2016-08-08 20:09:58.221] [ERROR] pomelo - [31m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "gate.gateHandler.queryEntry"
+[2016-08-08 20:09:58.221] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandler.queryEntry
+    at Service.handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\handlerService.js:33:30)
+    at handle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:370:25)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:383:3)
+    at dispatch (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2016-08-08 20:09:58.221] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 20:10:51.840] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [gate-server-1] is closed with session id: 2
+[2016-08-08 20:12:00.075] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 20:12:00.807] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 20:12:00.813] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 20:12:00.813] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 581 ms
+[2016-08-08 20:12:00.814] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":20396}}
+[2016-08-08 20:12:03.023] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 20:12:03.031] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 20:12:44.032] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 20:12:44.732] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 20:12:44.739] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 20:12:44.741] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 554 ms
+[2016-08-08 20:12:46.728] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 20:12:46.736] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 20:12:46.752] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3010}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2016-08-08 20:13:16.779] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "gate-server-1"
+[2016-08-08 20:13:17.467] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" enter after start...
+[2016-08-08 20:13:17.472] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" finish start
+[2016-08-08 20:13:17.472] [INFO] pomelo - [32m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\application.js] [39m"gate-server-1" startup in 544 ms
+[2016-08-08 20:13:17.500] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"172.16.3.78","clientPort":3010,"frontend":"true","serverType":"connector","pid":8324}}
+[2016-08-08 20:13:17.527] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-3","host":"127.0.0.1","port":3152,"clientHost":"172.16.3.78","clientPort":3012,"frontend":"true","serverType":"connector","pid":16244}}
+[2016-08-08 20:13:17.534] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"172.16.3.78","clientPort":3011,"frontend":"true","serverType":"connector","pid":15048}}
+[2016-08-08 20:13:19.775] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] getSession session is created with session id: 1
+[2016-08-08 20:13:19.783] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.queryEntry","body":{"uid":"3443"},"compressGzip":0}
+[2016-08-08 20:13:19.810] [DEBUG] pomelo - [36m[D:\demo\pomelo\pomeloTest2\game-server\node_modules\pomelo\lib\components\connector.js] [39m[gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":300,"data":{"main":"D:\\demo\\pomelo\\pomeloTest2\\game-server\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"172.16.3.78","clientPort":3011,"frontend":"true","serverType":"connector","pid":15048}}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}

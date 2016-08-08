@@ -6,12 +6,18 @@ var pomelo = require('pomelo');
 var app = pomelo.createApp();
 app.set('name', 'server');
 
+app.configure('production|development', 'gate', function () {
+	app.set('connectorConfig', {
+		connector : pomelo.connectors.hybridconnector
+	})
+})
+
 // app configuration
 app.configure('production|development', 'connector', function(){
   app.set('connectorConfig',
     {
       connector : pomelo.connectors.hybridconnector,
-      heartbeat : 3,
+      heartbeat : 20,
       useDict : true,
       useProtobuf : true
     });

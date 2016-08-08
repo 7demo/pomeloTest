@@ -1,9 +1,9 @@
 {
-    "name":"server",
-    "version":"0.0.1",
-    "private":false,
-    "dependencies":{
-        "pomelo":"1.2.2"
-    }
+  "name": "server",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "crc": "^3.4.0",
+    "pomelo": "1.2.2"
+  }
 }
-

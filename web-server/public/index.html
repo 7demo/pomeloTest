@@ -17,20 +17,21 @@
       require('boot');
     </script> 
     <script type="text/javascript">
-      var pomelo = window.pomelo;
-      var host = "127.0.0.1";
-      var port = "3010";
-      function show() {
-        pomelo.init({
-          host: host,
-          port: port,
-          log: true
-        }, function() {
-        pomelo.request("connector.entryHandler.entry", "hello pomelo", function(data) {
-            alert(data.msg);
-          });
-        });
-      }
+        var pomelo = window.pomelo;
+        var host = "127.0.0.1";
+        var port = "3016";
+        function show() {
+            pomelo.init({
+                host: host,
+                port: port,
+                log: true
+            }, function(data) {
+                // console.log(111, data) connector.entryHandler.entry  gate.gateHandler.queryEntry
+                pomelo.request("gate.gateHandler.queryEntry", {uid :'3443'}, function(data) {
+                    console.log(data)
+                });
+            });
+        }
     </script>
   </head>
   <body>
