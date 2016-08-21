@@ -27,11 +27,49 @@
                 log: true
             }, function(data) {
                 // console.log(111, data) connector.entryHandler.entry  gate.gateHandler.queryEntry
-                pomelo.request("gate.gateHandler.queryEntry", {uid :'3443'}, function(data) {
-                    console.log(data)
+                pomelo.request("gate.gateHandler.queryEntry", {uid :3323, roomId:'111'}, function(data) {
+                    console.log(data, data.data)
+                    pomelo.disconnect();
+                    pomelo.init({
+                        host: data.data.host,
+                        port: data.data.clientPort,
+                        log: true
+                    }, function (data) {
+                        pomelo.request("connector.entryHandler.entry", {uid :3323, roomId:'111'}, function(data) {
+                            console.log('===', data)
+                        }) 
+                    })
                 });
             });
         }
+
+        function send () {
+
+            pomelo.request("painter.painterHandler.send", {uid :3323, msg : '这是测试消息' + Math.random()}, function(data) {
+                console.log('===', data)
+            }) 
+
+        }
+        function send1 () {
+
+            pomelo.request("connector.entryHandler.chat", {uid :3323, msg : '这是测试消息' + Math.random()}, function(data) {
+                console.log('===', data)
+            }) 
+
+        }
+        pomelo.on('onAll', function (data) {
+            console.log('加入成功', data)
+        })
+        pomelo.on('onChat', function (data) {
+            console.log('1111', data)
+        })
+        pomelo.on('onChatBrr', function (data) {
+            console.log('22222', data)
+        })
+        pomelo.on('onSends', function (data) {
+            console.log('33', data)
+        })
+
     </script>
   </head>
   <body>
@@ -52,6 +90,8 @@
       </div>
       <div class="g-button">
         <input id="test" type="button" value="Test Game Server" onclick="show()"/>
+        <input id="send" type="button" value="send" onclick="send()"/>
+        <input id="send" type="button" value="send1111111" onclick="send1()"/>
       </div>
     </div>
   </body>

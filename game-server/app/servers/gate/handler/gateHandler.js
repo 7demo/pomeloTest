@@ -9,14 +9,10 @@ var Handler = function (app) {
 }
 
 Handler.prototype.queryEntry = function (msg, session, next) {
-
-	console.log('======================')
-	console.log(msg)
-	console.log('======================')
-	var uid = msg.uid;
+	var uid = msg.roomId;
 	if (!uid) {
 		next(null, {
-			code : 600
+			code : 500
 		})
 		return;
 	}
@@ -24,15 +20,16 @@ Handler.prototype.queryEntry = function (msg, session, next) {
 	var connectors = this.app.getServersByType('connector');
 	if (!connectors || connectors.length === 0) {
 		next(null, {
-			code : 700
+			code : 500
 		})
 		return;
 	}
 
 	var res = dispatcher.dispatch(uid, connectors);
 	next(null, {
-		code : 300,
-		data : res
+		code : 200,
+		data : res,
+		uid : uid
 	})
 
 }

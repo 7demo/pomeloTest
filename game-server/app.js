@@ -1,4 +1,5 @@
 var pomelo = require('pomelo');
+var painterRoute = require('./app/util/painterRoute.js');
 
 /**
  * Init app for client.
@@ -23,8 +24,19 @@ app.configure('production|development', 'connector', function(){
     });
 });
 
+// app configuration
+app.configure('production|development', function(){
+  app.route('painter', painterRoute)
+});
+
+//error
+app.set('errorHandler', function (err, msg, resp, session, cb) {
+  console.error(err)
+})
+
 // start app
 app.start();
+
 
 process.on('uncaughtException', function (err) {
   console.error(' Caught exception: ' + err.stack);
