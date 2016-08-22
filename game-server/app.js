@@ -26,7 +26,8 @@ app.configure('production|development', 'connector', function(){
 
 // app configuration
 app.configure('production|development', function(){
-  app.route('painter', painterRoute)
+  app.route('painter', painterRoute);
+  app.enable('systemMonitor'); //开启监控系统 必须lunix 安装 apt-get sysstat
 });
 
 //error
