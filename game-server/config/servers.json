@@ -1,32 +1,32 @@
 {
   "development":{
     "painter": [
-      {"id": "painter-server-1", "host": "127.0.0.1", "port": 3350, "clientPort": 3310},
-      {"id": "painter-server-2", "host": "127.0.0.1", "port": 3351, "clientPort": 3311},
-      {"id": "painter-server-3", "host": "127.0.0.1", "port": 3352, "clientPort": 3312}
+      {"id": "painter-server-1", "host": "172.16.3.78", "port": 3350, "clientPort": 3310},
+      {"id": "painter-server-2", "host": "172.16.3.78", "port": 3351, "clientPort": 3311},
+      {"id": "painter-server-3", "host": "172.16.3.78", "port": 3352, "clientPort": 3312}
     ],
     "connector": [
-      {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 3010, "frontend": true},
-      {"id": "connector-server-2", "host": "127.0.0.1", "port": 3151, "clientPort": 3011, "frontend": true},
-      {"id": "connector-server-3", "host": "127.0.0.1", "port": 3152, "clientPort": 3012, "frontend": true}
+      {"id": "connector-server-1", "host": "172.16.3.78", "port": 3150, "clientPort": 3010, "frontend": true},
+      {"id": "connector-server-2", "host": "172.16.3.78", "port": 3151, "clientPort": 3011, "frontend": true},
+      {"id": "connector-server-3", "host": "172.16.3.78", "port": 3152, "clientPort": 3012, "frontend": true}
     ],
     "gate" : [
-      {"id": "gate-server-1", "host": "127.0.0.1", "port":3015, "clientPort": 3016, "frontend": true}
+      {"id": "gate-server-1", "host": "172.16.3.78", "port":3015, "clientPort": 3016, "frontend": true}
     ]
   },
   "production":{
     "painter": [
-      {"id": "painter-server-1", "host": "127.0.0.1", "port": 3350, "clientPort": 3310},
-      {"id": "painter-server-2", "host": "127.0.0.1", "port": 3351, "clientPort": 3311},
-      {"id": "painter-server-3", "host": "127.0.0.1", "port": 3352, "clientPort": 3312}
+      {"id": "painter-server-1", "host": "172.16.3.78", "port": 3350, "clientPort": 3310},
+      {"id": "painter-server-2", "host": "172.16.3.78", "port": 3351, "clientPort": 3311},
+      {"id": "painter-server-3", "host": "172.16.3.78", "port": 3352, "clientPort": 3312}
     ],
     "connector": [
-      {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 3010, "frontend": true},
-      {"id": "connector-server-2", "host": "127.0.0.1", "port": 3151, "clientPort": 3011, "frontend": true},
-      {"id": "connector-server-3", "host": "127.0.0.1", "port": 3152, "clientPort": 3012, "frontend": true}
+      {"id": "connector-server-1", "host": "172.16.3.78", "port": 3150, "clientPort": 3010, "frontend": true},
+      {"id": "connector-server-2", "host": "172.16.3.78", "port": 3151, "clientPort": 3011, "frontend": true},
+      {"id": "connector-server-3", "host": "172.16.3.78", "port": 3152, "clientPort": 3012, "frontend": true}
     ],
     "gate" : [
-      {"id": "gate-server-1", "host": "127.0.0.1", "port":3015, "clientPort": 3016, "frontend": true}
+      {"id": "gate-server-1", "host": "172.16.3.78", "port":3015, "clientPort": 3016, "frontend": true}
     ]
   }
 }

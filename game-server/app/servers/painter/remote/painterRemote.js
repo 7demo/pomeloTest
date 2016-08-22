@@ -28,9 +28,9 @@ PainterRemote.prototype.add = function (uid, sid, roomId, flag, cb) {
 			msg : '3223233'
 		}
 	}, function (err, data) {
-		console.log('IIIIIIIIIIIIIIII', data)
+		
 	})
-	cb(null, this.get(roomId, flag));
+	cb(null, this.get(roomId));
 
 }
 
@@ -43,14 +43,12 @@ PainterRemote.prototype.add = function (uid, sid, roomId, flag, cb) {
  * @return {Array} users uids in channel
  *
  */
-PainterRemote.prototype.get = function (name, flag) {
+PainterRemote.prototype.get = function (name) {
 	var users = [];
-	var channel = this.channelService.getChannel(name, flag);
-
+	var channel = this.channelService.getChannel(name);
 	if (!! channel) {
 		users = channel.getMembers();
 	}
-
 	return users;
 
 }
@@ -64,17 +62,15 @@ PainterRemote.prototype.get = function (name, flag) {
  *
  */
 PainterRemote.prototype.kick = function (uid, sid, roomId, cb) {
-	console.log('_______')
-	console.log(uid, sid, roomId)
-	console.log('_______')
+	
 	var channel = this.channelService.getChannel(roomId);
-	channel.pushMessage({
-		route : 'onLeave',
-		user : uid + sid
-	})
 	
 	if (!!channel) {
 		channel.leave(uid, sid)
+		channel.pushMessage({
+			route : 'onLeave',
+			user : uid + sid
+		})
 	}
 
 	cb&&cb(null);

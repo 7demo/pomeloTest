@@ -15,16 +15,15 @@ Handler.prototype.entry = function(msg, session, next) {
   		return;
   	}
   	var self = this;
+
   	session.bind(msg.uid)
   	session.set('uid', msg.uid);
   	session.set('roomId', msg.roomId);
   	session.on('closed', onUserLeave.bind(null, self.app))
   	session.push('uid');
   	session.push('roomId');
-  	session.pushAll();
    
-   	self.app.rpc.painter.painterRemote.add(session, msg.uid, self.app.get('serverId'), msg.roomId, true, function (users) {
-   		console.log('-----, ++++0', users)
+   	self.app.rpc.painter.painterRemote.add(session, msg.uid, self.app.get('serverId'), msg.roomId, true, function (err, users) {
    		next(null, {
    			users:users
    		})
@@ -65,12 +64,14 @@ Handler.prototype.chat = function (msg, session, next) {
 }
 
 var onUserLeave = function (app, session, reason) {
-	console.log('+++++')
-	console.log(session)
-	console.log('+++++')
+
 	if (!session && !session.uid) {
 		console.log('断开连接')
 		return;
 	}
-	app.rpc.painter.painterRemote.kick(session, session.uid, app.get('serverId'), session.get('roomId'))
+	var uid = session.get('uid');
+	var sid = app.get('serverId');
+	var roomId = session.get('roomId');
+	app.rpc.painter.painterRemote.kick(session, uid, sid, roomId, null) //null为必须
+
 }
