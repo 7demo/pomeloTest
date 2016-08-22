@@ -12,14 +12,22 @@
     <meta name="version" content="1.0" />
     <meta name="keywords" content="pomelo" />
     <link type="text/css" rel="stylesheet" href="css/base.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/lib/build/build.js" type="text/javascript"></script>
     <script type="text/javascript">
       require('boot');
+      $(function () {
+
+        $('input[name=name]').val(Math.floor(10000 * Math.random()));
+
+      });
     </script> 
     <script type="text/javascript">
         var pomelo = window.pomelo;
-        var host = "127.0.0.1";
+        var host = "172.16.3.78";
         var port = "3016";
+        var uid = undefined;
+        var roomId = undefined;
         function show() {
             pomelo.init({
                 host: host,
@@ -27,7 +35,9 @@
                 log: true
             }, function(data) {
                 // console.log(111, data) connector.entryHandler.entry  gate.gateHandler.queryEntry
-                pomelo.request("gate.gateHandler.queryEntry", {uid :3323, roomId:'111'}, function(data) {
+                uid = $.trim($('input[name=name]').val());
+                roomId = $.trim($('input[name=roomId]').val());
+                pomelo.request("gate.gateHandler.queryEntry", {uid :uid, roomId:roomId}, function(data) {
                     console.log(data, data.data)
                     pomelo.disconnect();
                     pomelo.init({
@@ -35,7 +45,7 @@
                         port: data.data.clientPort,
                         log: true
                     }, function (data) {
-                        pomelo.request("connector.entryHandler.entry", {uid :3323, roomId:'111'}, function(data) {
+                        pomelo.request("connector.entryHandler.entry", {uid :uid, roomId:roomId}, function(data) {
                             console.log('===', data)
                         }) 
                     })
@@ -45,29 +55,19 @@
 
         function send () {
 
-            pomelo.request("painter.painterHandler.send", {uid :3323, msg : '这是测试消息' + Math.random()}, function(data) {
+            pomelo.request("painter.painterHandler.send", {uid :uid, msg : '这是测试消息' + Math.random()}, function(data) {
                 console.log('===', data)
             }) 
 
         }
-        function send1 () {
-
-            pomelo.request("connector.entryHandler.chat", {uid :3323, msg : '这是测试消息' + Math.random()}, function(data) {
-                console.log('===', data)
-            }) 
-
-        }
+        
         pomelo.on('onAll', function (data) {
             console.log('加入成功', data)
         })
         pomelo.on('onChat', function (data) {
             console.log('1111', data)
-        })
-        pomelo.on('onChatBrr', function (data) {
-            console.log('22222', data)
-        })
-        pomelo.on('onSends', function (data) {
-            console.log('33', data)
+            $('#list').append(JSON.stringify(data) + '<br />');
+            $('#list').scrollTop('300')
         })
 
     </script>
@@ -84,14 +84,14 @@
           Welcome to Pomelo
         </div>
       </div>
-      <div class="g-link">
-        Home:
-        <a href="https://github.com/NetEase/pomelo">https://github.com/NetEase/pomelo</a>
-      </div>
       <div class="g-button">
+        <input type="text" name='name' value=''>
+        <input type="text" name="roomId" value='123'>
         <input id="test" type="button" value="Test Game Server" onclick="show()"/>
         <input id="send" type="button" value="send" onclick="send()"/>
-        <input id="send" type="button" value="send1111111" onclick="send1()"/>
+      </div>
+      <div id='list' style='margin-top:10px;max-height: 300px; overflow-y: scroll; border:#ccc solid 1px;'>
+
       </div>
     </div>
   </body>
