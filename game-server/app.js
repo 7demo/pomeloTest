@@ -7,9 +7,7 @@ var painterRoute = require('./app/util/painterRoute.js');
 var app = pomelo.createApp();
 app.set('name', 'server');
 
-// app configuration
-app.configure('production|development', function(){
-  app.route('painter', painterRoute);
+app.configure(function(){
   app.enable('systemMonitor'); //开启监控系统 必须lunix 安装 apt-get sysstat
 });
 
@@ -30,7 +28,10 @@ app.configure('production|development', 'connector', function(){
     });
 });
 
-
+// app configuration
+app.configure('production|development', function(){
+  app.route('painter', painterRoute);
+});
 
 //error
 app.set('errorHandler', function (err, msg, resp, session, cb) {
