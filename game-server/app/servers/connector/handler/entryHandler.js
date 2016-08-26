@@ -25,7 +25,8 @@ Handler.prototype.entry = function(msg, session, next) {
    
    	self.app.rpc.painter.painterRemote.add(session, msg.uid, self.app.get('serverId'), msg.roomId, true, function (err, users) {
    		next(null, {
-   			users:users
+   			users:users,
+   			uid : uid
    		})
    	})
 
