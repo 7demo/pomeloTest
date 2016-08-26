@@ -24,10 +24,11 @@
     </script> 
     <script type="text/javascript">
         var pomelo = window.pomelo;
-        var host = window.location.hostname;
+        var host = '139.196.106.223';
         var port = "3016";
         var uid = undefined;
         var roomId = undefined;
+
         function show() {
             pomelo.init({
                 host: host,
@@ -94,5 +95,34 @@
 
       </div>
     </div>
+    <script>
+        
+        // var person = 100;
+        // for (var i = 0; i < person; i++) {
+        //   pomelo.init({
+        //         host: host,
+        //         port: port,
+        //         log: true
+        //     }, function(data) {
+        //         // console.log(111, data) connector.entryHandler.entry  gate.gateHandler.queryEntry
+        //         uid = i;
+        //         roomId = $.trim($('input[name=roomId]').val());
+        //         pomelo.request("gate.gateHandler.queryEntry", {uid :uid, roomId:roomId}, function(data) {
+        //             console.log(data, data.data)
+        //             pomelo.disconnect();
+        //             pomelo.init({
+        //                 host: data.data.host,
+        //                 port: data.data.clientPort,
+        //                 log: true
+        //             }, function (data) {
+        //                 pomelo.request("connector.entryHandler.entry", {uid :i, roomId:roomId}, function(data) {
+        //                     console.log('===', data)
+        //                 }) 
+        //             })
+        //         });
+        //     });
+        // }
+
+    </script>
   </body>
 </html>

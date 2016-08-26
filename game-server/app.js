@@ -7,9 +7,9 @@ var painterRoute = require('./app/util/painterRoute.js');
 var app = pomelo.createApp();
 app.set('name', 'server');
 
-app.configure(function(){
-  app.enable('systemMonitor'); //开启监控系统 必须lunix 安装 apt-get sysstat
-});
+// app.configure(function(){
+//   app.enable('systemMonitor'); //开启监控系统 必须lunix 安装 apt-get sysstat
+// });
 
 app.configure('production|development', 'gate', function () {
 	app.set('connectorConfig', {
@@ -22,7 +22,7 @@ app.configure('production|development', 'connector', function(){
   app.set('connectorConfig',
     {
       connector : pomelo.connectors.hybridconnector,
-      heartbeat : 20,
+      // heartbeat : 20,
       useDict : true,
       useProtobuf : true
     });
