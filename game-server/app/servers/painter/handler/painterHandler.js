@@ -13,7 +13,7 @@ var PainterHandler = function (app) {
  */
 PainterHandler.prototype.send = function (msg, session, next) {
 	console.log('++++', this.app.get('serverId'))
-	var channel = this.channelService.getChannel(session.get('roomId'));
+	var channel = this.channelService.getChannel(session.get('channelId'));
 
 	if (!channel) return;
 	

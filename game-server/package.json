@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
+    "async": "^2.0.1",
     "crc": "^3.4.0",
-    "pomelo": "1.2.2"
+    "pomelo": "1.2.2",
+    "pomelo-http-plugin": "0.0.25"
   }
 }

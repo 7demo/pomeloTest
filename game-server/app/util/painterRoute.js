@@ -17,7 +17,15 @@ module.exports = function (session, msg, app, cb) {
 		return;
 	}
 
-	var res = dispatcher.dispatch(session.get('roomId'), servers)
+	if (typeof session == 'object') { //session
+		var res = dispatcher.dispatch(session.get('channelId'), servers)
+	} else {
+		var channelId = session;
+		var res = dispatcher.dispatch(channelId, servers)
+	}
+	// var res = dispatcher.dispatch(session.get('channelId'), servers)
+
+	
 
 	cb(null, res.id)
 

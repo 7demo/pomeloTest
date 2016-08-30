@@ -1,0 +1,14 @@
+{
+  "development": {
+   	"http":{
+   		"host":"172.16.3.78",
+   		"post":3007
+   	}
+  },
+  "production": {
+    "http":{
+   		"host":"172.16.3.78",
+   		"post":3007
+   	}
+  }
+}

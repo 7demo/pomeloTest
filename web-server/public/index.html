@@ -24,8 +24,8 @@
     </script> 
     <script type="text/javascript">
         var pomelo = window.pomelo;
-        var host = '139.196.106.223';
-        var port = "3016";
+        var host = '172.16.3.78';
+        var port = 3016;
         var uid = undefined;
         var roomId = undefined;
 
@@ -35,7 +35,7 @@
                 port: port,
                 log: true
             }, function(data) {
-                // console.log(111, data) connector.entryHandler.entry  gate.gateHandler.queryEntry
+
                 uid = $.trim($('input[name=name]').val());
                 roomId = $.trim($('input[name=roomId]').val());
                 pomelo.request("gate.gateHandler.queryEntry", {uid :uid, roomId:roomId}, function(data) {
@@ -46,7 +46,7 @@
                         port: data.data.clientPort,
                         log: true
                     }, function (data) {
-                        pomelo.request("connector.entryHandler.entry", {uid :uid, roomId:roomId}, function(data) {
+                        pomelo.request("connector.entryHandler.entry", {uid :uid, channelId:'2831C28DFDEF6528'}, function(data) {
                             console.log('===', data)
                         }) 
                     })
@@ -85,6 +85,15 @@
           Welcome to Pomelo
         </div>
       </div>
+      <div>
+          <input type="text" name='room' value='222'>
+          <button id='createRoom'>创建</button>
+          <button id='enterRoom'>进入</button>
+      </div>
+      <br>
+      <hr>
+      <hr>
+      <hr>
       <div class="g-button">
         <input type="text" name='name' value=''>
         <input type="text" name="roomId" value='123'>
@@ -96,7 +105,51 @@
       </div>
     </div>
     <script>
-        
+        var ajaxHost = undefined;
+        var ajaxPort = undefined;
+        var channelId = undefined;
+
+        $('#createRoom').click(function () {
+
+            var _roomId = $.trim($('input[name=room]').val()) || '222';
+            $.ajax({
+                type : 'POST',
+                url : 'http://172.16.3.78:3007/api/room/open',
+                data : {
+                    roomId : _roomId
+                },
+                success : function (data) {
+                    console.log('成功', data)
+                    if (data.code == 200) {
+                        ajaxHost = data.data.connector.host;
+                        ajaxPort = data.data.connector.clientPort;
+                        channelId = data.data.channelId;
+                    }
+                }
+
+            })
+
+        })
+
+        $('#enterRoom').click(function () {
+            console.log(ajaxHost, ajaxPort, channelId)
+            console.log(typeof ajaxHost, typeof ajaxPort, typeof channelId)
+            if (!ajaxPort) return;
+            pomelo.init({
+                host : ajaxHost,
+                port : ajaxPort,
+                log : true
+            }, function (data) {
+                console.log('---------出事哈成', data)
+                pomelo.request('connector.entryHandler.entry', {
+                    uid : '12121212',
+                    channelId : channelId,
+                    roomId:channelId
+                }, function (data) {
+                    console.log('data', data)
+                })
+            })
+        })
         // var person = 100;
         // for (var i = 0; i < person; i++) {
         //   pomelo.init({

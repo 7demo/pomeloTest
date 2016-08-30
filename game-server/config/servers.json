@@ -1,34 +1,34 @@
 {
   "development":{
     "painter": [
-      {"id": "painter-server-1", "host": "139.196.106.223", "port": 3350, "clientPort": 3310},
-      {"id": "painter-server-2", "host": "139.196.106.223", "port": 3351, "clientPort": 3311},
-      {"id": "painter-server-3", "host": "139.196.106.223", "port": 3352, "clientPort": 3312},
-      {"id": "painter-server-4", "host": "139.196.198.7", "port": 3353, "clientPort": 3313},
-      {"id": "painter-server-5", "host": "139.196.198.7", "port": 3354, "clientPort": 3314},
-      {"id": "painter-server-6", "host": "139.196.198.7", "port": 3355, "clientPort": 3315}
+      {"id": "painter-server-1", "host": "172.16.3.78", "port": 3350, "clientPort": 3310},
+      {"id": "painter-server-2", "host": "172.16.3.78", "port": 3351, "clientPort": 3311},
+      {"id": "painter-server-3", "host": "172.16.3.78", "port": 3352, "clientPort": 3312}
     ],
     "connector": [
-      {"id": "connector-server-1", "host": "139.196.106.223", "port": 3150, "clientPort": 3010, "frontend": true},
-      {"id": "connector-server-2", "host": "139.196.106.223", "port": 3151, "clientPort": 3011, "frontend": true},
-      {"id": "connector-server-3", "host": "139.196.106.223", "port": 3152, "clientPort": 3012, "frontend": true},
-      {"id": "connector-server-4", "host": "139.196.198.7", "port": 3150, "clientPort": 3010, "frontend": true},
-      {"id": "connector-server-5", "host": "139.196.198.7", "port": 3151, "clientPort": 3011, "frontend": true},
-      {"id": "connector-server-6", "host": "139.196.198.7", "port": 3152, "clientPort": 3012, "frontend": true}
+      {"id": "connector-server-1", "host": "172.16.3.78", "port": 3150, "clientPort": 3010, "frontend": true},
+      {"id": "connector-server-2", "host": "172.16.3.78", "port": 3151, "clientPort": 3011, "frontend": true},
+      {"id": "connector-server-3", "host": "172.16.3.78", "port": 3152, "clientPort": 3012, "frontend": true}
     ],
     "gate" : [
-      {"id": "gate-server-1", "host": "139.196.106.223", "port":3015, "clientPort": 3016, "frontend": true}
+      {"id": "gate-server-1", "host": "172.16.3.78", "port":3015, "clientPort": 3016, "frontend": true}
+    ],
+    "http" : [
+      {"id":"http", "host":"172.16.3.78", "port":3008}
     ]
   },
   "production":{
     "painter": [
-      {"id": "painter-server-1", "host": "139.196.106.223", "port": 3350, "clientPort": 3310}
+      {"id": "painter-server-1", "host": "172.16.3.78", "port": 3350, "clientPort": 3310}
     ],
     "connector": [
-      {"id": "connector-server-1", "host": "139.196.106.223", "port": 3150, "clientPort": 3010, "frontend": true}
+      {"id": "connector-server-1", "host": "172.16.3.78", "port": 3150, "clientPort": 3010, "frontend": true}
     ],
     "gate" : [
-      {"id": "gate-server-1", "host": "139.196.106.223", "port":3015, "clientPort": 3016, "frontend": true}
+      {"id": "gate-server-1", "host": "172.16.3.78", "port":3015, "clientPort": 3016, "frontend": true}
+    ],
+    "http" : [
+      {"id":"http", "host":"172.16.3.78", "port":3008}
     ]
   }
 }

@@ -18,29 +18,22 @@ Handler.prototype.entry = function(msg, session, next) {
 
   	session.bind(msg.uid)
   	session.set('uid', msg.uid);
-  	session.set('roomId', msg.roomId);
+  	session.set('channelId', msg.channelId);
   	session.on('closed', onUserLeave.bind(null, self.app))
   	session.push('uid');
-  	session.push('roomId');
+  	session.push('channelId');
    
-   	self.app.rpc.painter.painterRemote.add(session, msg.uid, self.app.get('serverId'), msg.roomId, true, function (err, users) {
+   	self.app.rpc.painter.painterRemote.add(session, msg.uid, self.app.get('serverId'), msg.channelId, function (err, users) {
    		next(null, {
    			users:users,
    			uid : msg.uid
    		})
    	})
 
-   // 	next(null, {
-  	// 	code : 200,
-  	// 	data : {
-  	// 		msg : undefined
-  	// 	}
-  	// })
-
 };
 
 Handler.prototype.chat = function (msg, session, next) {
-	var channel = this.channelService.getChannel(session.get('roomId'), true);
+	var channel = this.channelService.getChannel(session.get('channelId'), true);
 
 	if (msg.target) {
 		var sid = this.app.get('serverId');
@@ -72,7 +65,7 @@ var onUserLeave = function (app, session, reason) {
 	}
 	var uid = session.get('uid');
 	var sid = app.get('serverId');
-	var roomId = session.get('roomId');
-	app.rpc.painter.painterRemote.kick(session, uid, sid, roomId, null) //null为必须
+	var channelId = session.get('channelId');
+	app.rpc.painter.painterRemote.kick(session, uid, sid, channelId, null) //null为必须
 
 }
